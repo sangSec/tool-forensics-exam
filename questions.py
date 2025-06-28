@@ -15,215 +15,6 @@ time_up = False
 
 questions = [
     {
-        "question": "1. What is the primary purpose of digital forensics?",
-        "options": {
-            "A": "To enhance system performance",
-            "B": "To recover lost data",
-            "C": "To investigate cyber crimes",
-            "D": "To install security updates",
-            "E": "To increase hardware efficiency"
-        },
-        "answer": "C"
-    },
-    {
-        "question": "2. Which tool is widely used for disk imaging in open-source forensic investigations on Linux?",
-        "options": {
-            "A": "EnCase",
-            "B": "FTK Imager",
-            "C": "dd",
-            "D": "XWays Forensics",
-            "E": "ProDiscover"
-        },
-        "answer": "C"
-    },
-    {
-        "question": "3. In Windows forensics, which file system is commonly analyzed for recovery of deleted files?",
-        "options": {
-            "A": "FAT32",
-            "B": "NTFS",
-            "C": "HFS+",
-            "D": "ext3",
-            "E": "APFS"
-        },
-        "answer": "B"
-    },
-    {
-        "question": "4. What does the term 'volatile data' refer to in a forensic context?",
-        "options": {
-            "A": "Data that is stored permanently",
-            "B": "Data that is easily recoverable",
-            "C": "Data that is lost when power is off",
-            "D": "Data that is backed up regularly",
-            "E": "Data that is encrypted"
-        },
-        "answer": "C"
-    },
-    {
-        "question": "5. Which command in Linux can you use to analyze file access timestamps?",
-        "options": {
-            "A": "ls -l",
-            "B": "stat",
-            "C": "touch",
-            "D": "cat",
-            "E": "grep"
-        },
-        "answer": "B"
-    },
-    {
-        "question": "6. In the context of forensic analysis, what is the main function of a write-blocker?",
-        "options": {
-            "A": "To enhance the evidence-gathering process",
-            "B": "To prevent any modifications to the original data",
-            "C": "To increase file recovery rates",
-            "D": "To magnify data for better analysis",
-            "E": "To compress data for storage"
-        },
-        "answer": "B"
-    },
-    {
-        "question": "7. Which Windows feature can provide insights into a user’s actions through its logs?",
-        "options": {
-            "A": "Task Manager",
-            "B": "Event Viewer",
-            "C": "Control Panel",
-            "D": "Registry Editor",
-            "E": "Command Prompt"
-        },
-        "answer": "B"
-    },
-    {
-        "question": "8. What is the main benefit of using file hashing in forensic investigations?",
-        "options": {
-            "A": "To compress files for storage",
-            "B": "To ensure data integrity and authenticity",
-            "C": "To speed up file transfers",
-            "D": "To encrypt sensitive information",
-            "E": "To categorize files quickly"
-        },
-        "answer": "B"
-    },
-    {
-        "question": "9. Which Linux command can be used to view and extract log files for forensic analysis?",
-        "options": {
-            "A": "mv",
-            "B": "cp",
-            "C": "tail",
-            "D": "rm",
-            "E": "echo"
-        },
-        "answer": "C"
-    },
-    {
-        "question": "10. In Windows, which of the following tools is a popular choice for malware analysis and forensic investigation?",
-        "options": {
-            "A": "Wireshark",
-            "B": "Volatility",
-            "C": "Oxygen Forensic Detective",
-            "D": "Char Leslie",
-            "E": "PowerShell"
-        },
-        "answer": "B"
-    },
-    {
-        "question": "11. What is the primary purpose of digital forensics?",
-        "options": {
-            "A": "To secure networks",
-            "B": "To recover lost files",
-            "C": "To analyze and preserve digital evidence",
-            "D": "To prevent cyber attacks",
-            "E": "To create software updates"
-        },
-        "answer": "C"
-    },
-    {
-        "question": "12. Which tool is commonly used for forensic analysis of Windows operating systems?",
-        "options": {
-            "A": "Autopsy",
-            "B": "Sleuth Kit",
-            "C": "EnCase",
-            "D": "Wireshark",
-            "E": "Nmap"
-        },
-        "answer": "C"
-    },
-    {
-        "question": "13. Which filesystem analysis tool is specifically designed for Linux systems?",
-        "options": {
-            "A": "FTK Imager",
-            "B": "XFS",
-            "C": "Ext4",
-            "D": "TSK",
-            "E": "GIMP"
-        },
-        "answer": "D"
-    },
-    {
-        "question": "14. What is the significance of a write blocker in forensic investigations?",
-        "options": {
-            "A": "It increases the speed of data retrieval",
-            "B": "It prevents modification of original evidence",
-            "C": "It allows for data encryption",
-            "D": "It simplifies data transfer",
-            "E": "It enhances data security"
-        },
-        "answer": "B"
-    },
-    {
-        "question": "15. In Windows forensics, which artifact can provide insights into user activity?",
-        "options": {
-            "A": "Registry hives",
-            "B": "Swap files",
-            "C": "Log files",
-            "D": "Page files",
-            "E": "All of the above"
-        },
-        "answer": "E"
-    },
-    {
-        "question": "16. Which of the following commands is essential for retrieving information on active processes in Linux?",
-        "options": {
-            "A": "ls",
-            "B": "ps",
-            "C": "df",
-            "D": "top",
-            "E": "pwd"
-        },
-        "answer": "B"
-    },
-    {
-        "question": "17. What is the primary purpose of the fmemdump tool in Linux forensics?",
-        "options": {
-            "A": "To analyze network traffic",
-            "B": "To recover deleted files",
-            "C": "To create memory images",
-            "D": "To perform disk imaging",
-            "E": "To generate user activity logs"
-        },
-        "answer": "C"
-    },
-    {
-        "question": "18. Which file extension typically indicates a file that contains system logs in Windows?",
-        "options": {
-            "A": ".log",
-            "B": ".bin",
-            "C": ".exe",
-            "D": ".txt",
-            "E": ".dll"
-        },
-        "answer": "A"
-    },
-    {
-        "question": "19. In Linux forensics, what is the term for recovering data from a damaged file system?",
-        "options": {
-            "A": "Data carving",
-            "B": "Data cloning",
-            "C": "Data restoration",
-            "D": "Data encryption",
-            "E": "Data fragmentation"
-        },
-        "answer": "A"
-    },
-    {
         "question": "20. Which of the following is a common challenge faced by forensic investigators in both Windows and Linux environments?",
         "options": {
             "A": "Unexpected file formats",
@@ -343,6 +134,226 @@ questions = [
             "E": "A technique for file compression"
         },
         "answer": "B"
+    },
+    {
+        "question": "31. What is the primary purpose of digital forensics?",
+        "options": {
+            "A": "To recover deleted files",
+            "B": "To analyze digital information for legal evidence",
+            "C": "To increase computer performance",
+            "D": "To install software",
+            "E": "To create backup copies"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "32. Which tool is commonly used for disk imaging in Windows forensic investigations?",
+        "options": {
+            "A": "WinRAR",
+            "B": "FTK Imager",
+            "C": "Microsoft Word",
+            "D": "Adobe Reader",
+            "E": "Notepad"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "33. In Linux, which command is used to create a bit-by-bit copy of a hard drive?",
+        "options": {
+            "A": "cp",
+            "B": "dd",
+            "C": "rsync",
+            "D": "mv",
+            "E": "tar"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "34. Which of the following is NOT a common file system used in forensics?",
+        "options": {
+            "A": "NTFS",
+            "B": "FAT32",
+            "C": "ext4",
+            "D": "HFS+",
+            "E": "JPEG"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "35. What is the significance of maintaining a chain of custody in digital forensics?",
+        "options": {
+            "A": "To ensure data recovery",
+            "B": "To legally document the handling of evidence",
+            "C": "To prevent computer viruses",
+            "D": "To enhance system performance",
+            "E": "To provide software updates"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "36. Which forensic tool is known for analyzing and recovering artifacts from mobile devices?",
+        "options": {
+            "A": "Autopsy",
+            "B": "Cellebrite",
+            "C": "Acronis",
+            "D": "Paint.NET",
+            "E": "GIMP"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "37. What file format is commonly used for storing forensic images?",
+        "options": {
+            "A": ".jpeg",
+            "B": ".iso",
+            "C": ".e01",
+            "D": ".txt",
+            "E": ".mp3"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "38. Which command in Windows can be used to verify the integrity of files?",
+        "options": {
+            "A": "ping",
+            "B": "dir",
+            "C": "certutil",
+            "D": "format",
+            "E": "ipconfig"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "39. In Linux forensics, which file contains information about user accounts and their hashes?",
+        "options": {
+            "A": "/etc/passwd",
+            "B": "/etc/group",
+            "C": "/var/log/syslog",
+            "D": "/home/user",
+            "E": "/root/root"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "40. What does the term 'forensic duplication' refer to in digital forensics?",
+        "options": {
+            "A": "Copying files to the cloud",
+            "B": "Creating a legally admissible exact copy of data for analysis",
+            "C": "Backing up important documents",
+            "D": "Reducing file sizes for easier transfer",
+            "E": "Updating software installations"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "41. What is the primary purpose of digital forensics in a Windows environment?",
+        "options": {
+            "A": "Data recovery",
+            "B": "Malware analysis",
+            "C": "Incident response",
+            "D": "Network security",
+            "E": "System optimization"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "42. Which tool is commonly used for forensic analysis on Windows systems?",
+        "options": {
+            "A": "Autopsy",
+            "B": "FTK Imager",
+            "C": "Wireshark",
+            "D": "Nmap",
+            "E": "Metasploit"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "43. In Linux forensics, what is the command to create a disk image using dd?",
+        "options": {
+            "A": "dd if=/dev/sda of=/path/to/image.img",
+            "B": "dd /dev/sda > /path/to/image.img",
+            "C": "dd image=/dev/sda of=/path/to/image.img",
+            "D": "dd path=/dev/sda to=/path/to/image.img",
+            "E": "dd create /dev/sda > /path/to/image.img"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "44. What file system is commonly analyzed in Windows forensics?",
+        "options": {
+            "A": "ext4",
+            "B": "NTFS",
+            "C": "HFS+",
+            "D": "Btrfs",
+            "E": "FAT32"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "45. Which command is used to analyze running processes in a Linux forensic investigation?",
+        "options": {
+            "A": "vmstat",
+            "B": "ps aux",
+            "C": "netstat -a",
+            "D": "top -u",
+            "E": "lsof"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "46. What is a notable feature of the Registry in Windows forensics?",
+        "options": {
+            "A": "It shows real-time CPU usage",
+            "B": "It contains user and system configuration settings",
+            "C": "It is a form of file encryption",
+            "D": "It stores network traffic logs",
+            "E": "It doesn't store application data"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "47. Which of the following is a popular open-source forensic tool for Linux?",
+        "options": {
+            "A": "Encase",
+            "B": "X1 Social Discovery",
+            "C": "Sleuth Kit",
+            "D": "Helix",
+            "E": "FTK Imager"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "48. What is the significance of a hash value in digital forensics?",
+        "options": {
+            "A": "It encrypts the data",
+            "B": "It verifies the integrity of the data",
+            "C": "It compresses the data",
+            "D": "It stores the location of the data",
+            "E": "It helps in data recovery"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "49. Which type of evidence can be found in volatile memory during a forensic examination?",
+        "options": {
+            "A": "Installed applications",
+            "B": "Previous user logins",
+            "C": "Running processes and network connections",
+            "D": "Disk partition information",
+            "E": "Archived emails"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "50. What is the primary file system for Linux?",
+        "options": {
+            "A": "NTFS",
+            "B": "FAT32",
+            "C": "ext4",
+            "D": "HFS+",
+            "E": "exFAT"
+        },
+        "answer": "C"
     }
 ]
 
